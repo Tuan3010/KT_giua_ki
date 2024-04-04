@@ -50,6 +50,7 @@
                             <span class="text-danger">{{ $errors->first('file_upload') }}</span>
                         @endif
                     </div>
+            
                     <input type="submit" value="Đăng kí" class="btn-primary btn btn-block">
 
                 </form>
